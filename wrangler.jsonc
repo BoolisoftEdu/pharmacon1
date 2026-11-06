@@ -1,0 +1,24 @@
+{
+  "name": "test-examen-blanc-1-ue211-cloudflare",
+  "main": "cloudflare/worker.mjs",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "vars": {
+    "ASSET_HASHES": {
+      "/index.html": "14b67762a719aa036d82bde62aa7a8cc23f8bd7cc882c0d8490df1d37bbf50a8",
+      "/static/style.css": "35f3298c8b286f6ff854d2be7cc5c97aac587e5098c1b5e0b2cd56445d224b65",
+      "/static/app.js": "3bc553908ac6d4351f2c3f3e991a6dc754390589eb6a2ff4ee6a6557af712002"
+    }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "test-examen-blanc-1-ue211-cloudflare",
+      "database_id": "REMPLACER_PAR_ID_D1"
+    }
+  ]
+}
